@@ -4,12 +4,12 @@ postMerge :
       - pnpm install --shamefully-hoist=true 
       - cp ./packages/hoppscotch-app/.env.example ./packages/hoppscotch-app/.env
   subModules:    
-      - name: hoppscotch-app      
-        path : "./packages/hoppscotch-app/"
-        pattern: 
-          - "./**/__tests__/**/*.spec.js"
-        framework : jest
-        configFile : "./jest.config.js"
+#       - name: hoppscotch-app      
+#         path : "./packages/hoppscotch-app/"
+#         pattern: 
+#           - "./**/__tests__/**/*.spec.js"
+#         framework : jest
+#         configFile : "./jest.config.js"
       
 #       - name: hoppscotch-cli      
 #         path : "./packages/hoppscotch-cli/"
@@ -22,12 +22,12 @@ postMerge :
 #             - npm run do-typecheck
 #         configFile : "./jest.config.ts"
         
-#       - name: hoppscotch-js-sandbox     
-#         path : "./packages/hoppscotch-js-sandbox/"
-#         pattern: 
-#           - "./src/__tests__/**/*.spec.ts"
-#         framework : jest
-#         configFile : "./jest.config.js" 
+      - name: hoppscotch-js-sandbox     
+        path : "./packages/hoppscotch-js-sandbox/"
+        pattern: 
+          - "./src/__tests__/**/*.spec.ts"
+        framework : jest
+        configFile : "./jest.config.js" 
 version : 2.0.0
 nodeVersion: 16.15.0
 tier: large
