@@ -28,6 +28,6 @@ postMerge :
           - "./src/__tests__/**/*.spec.ts"
         framework : jest
         configFile : "./jest.config.js" 
-version : 1.0.0
+version : 2.0.0
 nodeVersion: 16.15.0
 tier: large
