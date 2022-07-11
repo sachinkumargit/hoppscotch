@@ -8,7 +8,6 @@ describe("jsonParse", () => {
       awesome: true,
       when: 2019,
     })
-
     expect(() => jsonParse(testJSON)).not.toThrow()
   })
 
