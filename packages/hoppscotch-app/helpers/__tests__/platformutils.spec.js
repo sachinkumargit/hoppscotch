@@ -38,5 +38,6 @@ describe("getPlatformSpecialKey", () => {
 
     platformGetter.mockReturnValue(undefined)
     expect(getPlatformSpecialKey()).toMatch("Ctrl")
+    
   })
 })
