@@ -35,7 +35,6 @@ describe("getPlatformSpecialKey", () => {
   test("returns 'Ctrl' for null/undefined platforms", () => {
     platformGetter.mockReturnValue(null)
     expect(getPlatformSpecialKey()).toMatch("Ctrl")
-
     platformGetter.mockReturnValue(undefined)
     expect(getPlatformSpecialKey()).toMatch("Ctrl")
     
