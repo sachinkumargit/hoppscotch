@@ -8,6 +8,8 @@ const FALSE_RESULT_REPORT = {
   duration: { test: 1, request: 1, preRequest: 1 },
 };
 
+//comment. added
+
 const TRUE_RESULT_REPORT = {
   path: "some_path",
   tests: [],
